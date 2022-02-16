@@ -1,0 +1,40 @@
+.workWithLayout2 {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 50px 1fr;
+
+    grid-template-areas: 
+    "title title"
+    "menuNavigation info";
+
+}
+
+.title{
+    grid-area: title;
+}
+
+.menuNavigation{
+    grid-area: menuNavigation;
+}
+
+.info{
+    grid-area: info; 
+    margin-top: 40px;
+    
+}
+
+.workWithLayout2 button{
+    background-color: lightgrey;
+    color: black;
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgb(175, 175, 175);;
+    
+}
+
+.menuButton{
+    display: flex;
+    flex-direction: column;
+    margin-top: 42px;
+    justify-items: start;
+}
